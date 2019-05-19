@@ -41,13 +41,14 @@ namespace Patron_Singleton
             }
         }
 
-        public string Mensaje { get => this.mensaje; set => this.mensaje = value; }
-
-
         /// <summary>
-        /// Este metodo solo lo cree para demostrar que la clase se intancio
+        /// Este mensaje solo lo cree para hacer algunas pruebas desde la interfaz
         /// </summary>
         /// <returns></returns>
 
+        public string Mensaje { get => this.mensaje; set => this.mensaje = value; }
+
+
+       
     }
 }
